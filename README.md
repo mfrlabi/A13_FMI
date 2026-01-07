@@ -61,6 +61,9 @@ labi@lb:~$
 
 
 http://192.168.10.1:5000
+
+if you change the wifi 
+
 http://192.168.101.33:5000
 
 
