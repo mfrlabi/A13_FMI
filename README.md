@@ -2,6 +2,8 @@
 
     labi@lb:~$ ssh root@192.168.10.1
 
+or
+
     labi@lb:~$ ssh-keygen -f '/home/labi/.ssh/known_hosts' -R '192.168.10.1'
 
     labi@lb:~$ ssh root@192.168.10.1
@@ -11,6 +13,7 @@ CXa13sadmin
 
 
     root@MERCURYNAVIRK3588:~# cd /cxapp/ssd/data/
+    
     root@MERCURYNAVIRK3588:/cxapp/ssd/data#
 
 
