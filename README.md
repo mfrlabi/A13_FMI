@@ -1,32 +1,36 @@
 # A13_FMI
 
-labi@lb:~$ ssh root@192.168.10.1
+    labi@lb:~$ ssh root@192.168.10.1
 
-labi@lb:~$ ssh-keygen -f '/home/labi/.ssh/known_hosts' -R '192.168.10.1'
+    labi@lb:~$ ssh-keygen -f '/home/labi/.ssh/known_hosts' -R '192.168.10.1'
 
-labi@lb:~$ ssh root@192.168.10.1
+    labi@lb:~$ ssh root@192.168.10.1
 
 
 CXa13sadmin
 
 
-root@MERCURYNAVIRK3588:~# cd /cxapp/ssd/data/
-root@MERCURYNAVIRK3588:/cxapp/ssd/data#
+    root@MERCURYNAVIRK3588:~# cd /cxapp/ssd/data/
+    root@MERCURYNAVIRK3588:/cxapp/ssd/data#
 
 
-root@MERCURYNAVIRK3588:/cxapp/ssd/data# ls
+    root@MERCURYNAVIRK3588:/cxapp/ssd/data# ls
 data_2025-12-16-19-15-24  data_2025-12-17-14-42-44
 data_2025-12-17-14-41-21  data_2025-12-17-16-58-16
-root@MERCURYNAVIRK3588:/cxapp/ssd/data# 
+   
+    root@MERCURYNAVIRK3588:/cxapp/ssd/data# 
 
 
-root@MERCURYNAVIRK3588:/cxapp/ssd/data# rsync -avz data_2025-12-17-14-41-21 data_2025-12-17-14-42-44 labi@192.168.10.227:/home/labi/ws_livox/a13/
- ---------------
+    root@MERCURYNAVIRK3588:/cxapp/ssd/data# rsync -avz data_2025-12-17-14-41-21 data_2025-12-17-14-42-44 labi@192.168.10.227:/home/labi/ws_livox/a13/
+
+ ------------------------------------------------------------------------
+
 
 
 2nd Terminal:
-10
-labi@lb:~$ ifconfig
+ 
+    labi@lb:~$ ifconfig
+     
 enx00e04c253008: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         ether 00:e0:4c:25:30:08  txqueuelen 1000  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
@@ -57,7 +61,8 @@ labi@lb:~$
 
 
 192.168.10.227
-----------------------------
+
+---------------------------------------------------------------------------------------
 
 
 
